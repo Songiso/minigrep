@@ -23,7 +23,6 @@ impl Config {
         };
 
         let ignore_case = env::var("IGNORE_CASE").is_ok();
-
         Ok(Config {
             query,
             file_path,
